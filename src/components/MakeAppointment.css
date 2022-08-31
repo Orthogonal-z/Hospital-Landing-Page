@@ -1,0 +1,45 @@
+.makeappointment {
+  background-color: #a0e2e4;
+  /* height: 1000px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0f616e;
+}
+.appointment-container {
+  text-align: center;
+
+  padding: 50px 0;
+}
+.top-container {
+  /* text-align: center; */
+  margin-bottom: 50px;
+}
+.heading {
+  font-family: Amiri;
+  font-weight: bold;
+  font-size: 51px;
+  letter-spacing: -0.03em;
+  line-height: 44px;
+  text-align: center;
+  color: #0f616e;
+}
+
+@media screen and (max-width: 780px) {
+  .heading {
+    font-size: 2.8rem;
+  }
+  .makeappointment {
+    padding: 10px;
+  }
+}
+
+.bottom-text {
+  font-family: Amiri;
+  font-weight: bold;
+  font-size: 24px;
+  letter-spacing: -0.03em;
+  line-height: 44px;
+  text-align: center;
+  color: #0f616e;
+}

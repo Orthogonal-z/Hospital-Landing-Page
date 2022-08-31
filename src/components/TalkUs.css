@@ -1,0 +1,54 @@
+.talkus {
+  padding: 30px;
+}
+
+.talkus-container {
+  display: flex;
+  justify-content: space-around;
+}
+.img-box {
+  height: 8rem;
+  /* background-color: green; */
+}
+.img-box > img {
+  /* background-color: #fff; */
+  height: 100%;
+}
+
+.get-pregnant-container {
+  display: flex;
+  /* justify-content: stretch; */
+  align-items: center;
+}
+.CTA-container {
+  /* background-color: red; */
+
+  margin: 10px;
+}
+.pregnant-text {
+  font-family: "DM Sans";
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 44px;
+  text-align: left;
+  color: #000;
+}
+
+.pregnant-para {
+  font-family: "DM Sans";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 44px;
+  text-align: left;
+  color: #0f616e;
+}
+@media screen and (max-width: 780px) {
+  .talkus-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .get-pregnant-container {
+    margin: 1rem;
+  }
+}

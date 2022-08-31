@@ -1,0 +1,125 @@
+.services {
+  padding: 180px 100px;
+  /* height: 100vh; */
+  background-color: #f7f7f7;
+}
+/* .services-container {
+  width: 100%;
+} */
+.service-heading {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.services-component-container {
+  display: flex;
+  justify-content: center;
+  /* padding: 20px; */
+  /* background-color: #fff; */
+  width: 100%;
+  /* border-radius: 12px; */
+  /* box-shadow: 1px 1px 1px 1px rgb(167, 143, 143); */
+}
+.image-box {
+  text-align: center;
+
+  height: 6rem;
+  width: auto;
+}
+.image {
+  border-radius: 25px;
+  height: 1rem;
+}
+
+.image-box {
+  display: flex;
+  margin: 15px 10px;
+}
+
+.image-description {
+  width: 100%;
+}
+.service-component {
+  color: #295cb9;
+  margin: 5px 15px;
+  /* background-color: red; */
+  padding: 20px;
+  background-color: #fff;
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 1px 1px 2px 1px rgb(223, 201, 201);
+}
+@media screen and (max-width: 780px) {
+  .services-component-container {
+    display: block;
+    width: 100%;
+  }
+  .services {
+    margin-top: 120px;
+  }
+
+  .service-component {
+    text-align: center;
+    color: #295cb9;
+    margin: 10px 10px;
+    /* background-color: red; */
+    padding: 20px;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 1px 1px 2px 1px rgb(223, 201, 201);
+  }
+
+  .image-description {
+    animation: bottomToTop 0.8s;
+  }
+}
+
+@keyframes bottomToTop {
+  0% {
+    opacity: 0;
+
+    transform: translateY(20px);
+  }
+  80% {
+    transform: translateY(-2px);
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.service-heading {
+  font-family: "DM Sans";
+  font-weight: bold;
+  font-size: 30px;
+  letter-spacing: -0.03em;
+  line-height: 44px;
+  text-align: center;
+  color: #0f5f6c;
+}
+
+.image-text {
+  font-family: "Franklin Gothic";
+  font-weight: 00;
+  font-size: 21px;
+  line-height: 1.8rem;
+  text-align: left;
+  color: #264e96;
+}
+
+.image-description {
+  font-family: Montserrat;
+
+  font-size: 15px;
+  line-height: 25px;
+  text-align: left;
+  font-weight: 500;
+  color: #0c0c0c;
+}
+
+.img-src {
+  width: 100px;
+  height: 100px;
+  margin-right: 5px;
+}

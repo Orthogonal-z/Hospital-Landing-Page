@@ -1,0 +1,115 @@
+.number {
+  background-color: #ffffff;
+  padding: 80px 0;
+}
+.number-container {
+  display: flex;
+  justify-content: center;
+}
+.numbers-section {
+  display: flex;
+  /* background-color: red; */
+  /* height: 250px; */
+  justify-content: center;
+  align-items: center;
+}
+.number-box {
+  padding: 20px 60px;
+  background-color: #fff;
+  border-right: 1px solid rgb(202, 178, 178);
+}
+.number-count {
+  font-size: 60px;
+  color: #e86531;
+}
+
+@media screen and (max-width: 780px) {
+  .numbers-section {
+    flex-direction: column;
+  }
+  .number-box {
+    /* background-color: red; */
+    text-align: center;
+    width: 60%;
+  }
+  .number-heading {
+    text-align: center;
+    font-size: 40px;
+    width: 80%;
+    margin-bottom: 10px;
+  }
+  .number-box {
+    border: 1px solid rgb(202, 178, 178);
+  }
+}
+
+.number-heading {
+  font-family: "DM Sans";
+  font-weight: bold;
+  font-size: 30px;
+  letter-spacing: -0.03em;
+  line-height: 44px;
+  text-align: left;
+  color: #0f5f6c;
+  margin-bottom: 70px;
+}
+
+.over-head {
+  font-family: "DM Sans";
+  font-weight: normal;
+  font-size: 21px;
+  letter-spacing: -0.03em;
+  line-height: 44px;
+  text-align: center;
+  color: #1d1d1d;
+}
+
+.number-count {
+  font-family: "DM Sans";
+  font-weight: bold;
+  font-size: 47px;
+  letter-spacing: -0.03em;
+  line-height: 112px;
+  text-align: center;
+  color: #e86531;
+}
+
+.number-count-2 {
+  font-family: "DM Sans";
+  font-weight: bold;
+  font-size: 47px;
+  letter-spacing: -0.03em;
+  line-height: 112px;
+  text-align: center;
+  color: #0f616e;
+}
+
+.number-count-3 {
+  font-family: "DM Sans";
+  font-weight: bold;
+  font-size: 47px;
+  letter-spacing: -0.03em;
+  line-height: 112px;
+  text-align: center;
+  color: #fcce01;
+}
+
+.number-count-4 {
+  font-family: "DM Sans";
+  font-weight: bold;
+  font-size: 47px;
+  letter-spacing: -0.03em;
+  line-height: 112px;
+  text-align: center;
+  color: #e86531;
+}
+
+.par {
+  font-family: "DM Sans";
+  font-weight: normal;
+  font-size: 20px;
+  letter-spacing: -0.03em;
+  line-height: 44px;
+  text-align: center;
+  color: #5f5f5f;
+}
